@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import axios, { all } from 'axios'
-import allCategories from '../data/data';
+import axios from 'axios'
 import { useNavigate } from 'react-router';
 
 const AllFood = () => {
